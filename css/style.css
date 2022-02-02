@@ -43,7 +43,6 @@
 /*---------------------------------*/
 body{
 	font-family: "Montserrat", sans-serif;
-	font-style: 19px;
 	color: #202020;
 }
 header{
@@ -113,7 +112,6 @@ h3 {
 	text-shadow: 5px -5px 10px blueviolet;
 }
 .author{
-	white-space: 50px;
 	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #800000;
