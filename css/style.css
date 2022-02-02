@@ -1,0 +1,136 @@
+/* Обнуляющий стиль */
+@import "nullstyle.css";
+/*--------------------------------*/
+/* &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Glory:500italic&display=swap);
+/*--------------------------------*/
+@font-face {
+	font-family: Ephesis;
+	src: url('../fonts/Ephesis-Regular.woff') format('woff'),url('../fonts/Ephesis-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Black.woff') format('woff'),url('../fonts/Roboto-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Bold.woff') format('woff'),url('../fonts/Roboto-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Medium.woff') format('woff'),url('../fonts/Roboto-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Regular.woff') format('woff'),url('../fonts/Roboto-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Light.woff') format('woff'),url('../fonts/Roboto-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-display: swap;
+}
+/*---------------------------------*/
+body{
+	font-family: "Montserrat", sans-serif;
+	font-style: 19px;
+	color: #202020;
+}
+header{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+	font-size: 50px;
+	text-shadow: 5px -5px 10px tomato;
+}
+.link{
+	font-size: 24px;
+}
+.link.active{
+	font-weight: 900;
+}
+.thinking-title{
+	text-transform: capitalize;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+[class*='-text']{
+	text-indent: 20px;
+	font-size: 20px;
+	line-height: 1.7;
+}
+.thinking-text{
+	text-align: justify;
+	word-spacing: 7px;
+}
+.subtitle{
+	font-family: Ephesis, monospace;
+	font-size: 30px;
+	color: slategrey;
+	white-space: nowrap;
+}
+.page-intelligence h2 {
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+}
+.line{
+	text-decoration:line-through;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: Ephesis, monospace;
+	font-size: 40px;
+	text-align: right;
+	text-decoration: overline;
+}
+.page-embarrassment p{
+	line-height: 200%;
+	font-size: 18px;
+	color: teal;
+	font-family: 'Roboto';
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.style{
+	font-family: 'Glory', 'Arial', sans-serif ;
+	font-style: italic;
+	font-weight: 500;
+}
+.logo.footer-logo{
+	font-weight: 700;
+	text-shadow: 5px -5px 10px blueviolet;
+}
+.author{
+	white-space: 50px;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #800000;
+	text-decoration: underline;
+}	
+#process{
+	font-weight: 900;
+}
+#process .stick{
+	text-transform: uppercase;
+}
+.page-memory > p {
+	color: forestgreen;
+	line-height: 1.7;
+	font-size: 20px;
+}
+.page-memory h2{
+	font-size: 45px;
+	text-decoration: overline;
+}
